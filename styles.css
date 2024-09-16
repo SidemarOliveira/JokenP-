@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://img.freepik.com/vetores-gratis/brinquedos-de-criancas-sem-costura-doodle-de-balde-de-colher-e-bola_98292-4617.jpg?w=740&t=st=1712968423~exp=1712969023~hmac=1bcf2e5b92ee38b0e31d084d75f683d92dd81c15e545f5cefdb25045138a8cad);
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  border-radius: 35px;
+  background-color: #f4ff00;;
+  opacity: 0.9;
+  padding: 10px;
+}
+
+h1 {
+  margin: 35px 0 20px 0px;
+  font-size: 75px;
+  font-family: cursive;
+}
+
+.botton {
+  display: inline-block;
+  align-items: center;
+}
+
+.handclosed {
+  width: 80px;
+  height: 90px;
+  margin-right: 10px;
+  font-size: 35px;
+  background: purple;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px 2px;
+  cursor: pointer;
+  
+}
+
+.handclosed:hover {
+    transform: scale(1.1);
+}
+.handclosed:active {
+  opacity: 0.9;
+
+}
+.handopen:hover{
+    transform: scale(1.1);
+}
+.handopen:active {
+  opacity: 0.9;
+}
+
+
+.handscissor:hover {
+    transform: scale(1.1);
+}
+.handscissor:active {
+  opacity: 0.9;
+}
+
+
+.handopen {
+  width: 80px;
+  height: 90px;
+  font-size: 35px;
+  background: greenyellow;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px 2px;
+  cursor: pointer;
+}
+
+.handscissor {
+  width: 80px;
+  height: 90px;
+  margin-left: 10px;
+  font-size: 35px;
+  background: rgb(32, 32, 255);
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px 2px;
+  cursor: pointer;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 20px 0px 17px 0px;
+}
+
+.myPoint span {
+    color: blue;
+    font-size: 50px;
+
+}
+
+.pointAlexa span {
+    color: red;
+    font-size: 50px;
+}
+
+
+p {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+@media (max-width: 450px) {
+  
+.container{
+  width: 370px;
+  height: 550px
+}
+}
